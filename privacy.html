@@ -80,13 +80,14 @@
 <body>
 <main>
   <h1>Privacy Policy for iTypeFastR</h1>
-  <p class="subtitle">Effective date: September 6, 2026</p>
+  <p class="subtitle">Effective date: November 13, 2026</p>
 
   <div class="highlight">
     <strong>Summary:</strong> iTypeFastR is a custom keyboard app for iOS, iPadOS, and Android.
     It does not collect, store, transmit, or share any of your personal data, typed content,
     or usage activity — with us or with any third party. Everything the keyboard does happens
-    entirely on your device, on every platform.
+    entirely on your device, on every platform. The only connection the app makes is with Apple or
+    Google Play, and only to manage your subscription.
   </div>
 
   <h2>Who we are</h2>
@@ -116,9 +117,11 @@
     device.
   </p>
   <p>
-    <strong>Android:</strong> The Android app does not request the <code>INTERNET</code> permission
-    or any other network-related permission. Without it, the app is technically incapable of sending
-    data anywhere, regardless of any other setting.
+    <strong>Android:</strong> The Android app uses Google Play Billing, the system Google requires for
+    subscriptions on Google Play. That library adds the <code>INTERNET</code> and
+    <code>ACCESS_NETWORK_STATE</code> permissions so the app can check your subscription with Google
+    Play. iTypeFastR uses this connection for nothing else. The keyboard never sends what you type,
+    and the app contains no other code that connects to the internet.
   </p>
 
   <h2>How the keyboard works</h2>
@@ -132,7 +135,10 @@
   <h2>Third parties</h2>
   <p>
     We do not share data with third parties because we do not collect any data to share. iTypeFastR
-    does not integrate any third-party SDKs, advertising networks, or analytics services.
+    contains no advertising networks, analytics or crash-reporting services. Subscriptions are
+    handled by Apple on iOS and by Google Play on Android. When you start or manage a subscription,
+    Apple or Google processes the payment under its own privacy policy. We never receive your
+    payment details.
   </p>
 
   <h2>Children's privacy</h2>
